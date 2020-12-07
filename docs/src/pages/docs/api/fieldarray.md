@@ -40,7 +40,7 @@ export const FriendList = () => (
                       </button>
                       <button
                         type="button"
-                        onClick={() => arrayHelpers.insert(index, '')} // insert an empty string at a position
+                        onClick={() => arrayHelpers.insert(index + 1, '')} // insert an empty string at a position
                       >
                         +
                       </button>
